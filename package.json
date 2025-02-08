@@ -24,7 +24,7 @@
     "typecheck": "tsc",
     "typegen": "wrangler types",
     "preview": "pnpm run build && pnpm run start",
-    "prepare": "husky"
+    "x-prepare": "husky"
   },
   "engines": {
     "node": ">=18.18.0"
@@ -67,9 +67,9 @@
     "@radix-ui/react-separator": "^1.1.0",
     "@radix-ui/react-switch": "^1.1.1",
     "@radix-ui/react-tooltip": "^1.1.4",
-    "@remix-run/node": "^2.15.0",
     "@remix-run/cloudflare": "^2.15.0",
     "@remix-run/cloudflare-pages": "^2.15.0",
+    "@remix-run/node": "^2.15.0",
     "@remix-run/react": "^2.15.0",
     "@uiw/codemirror-theme-vscode": "^4.23.6",
     "@unocss/reset": "^0.61.9",
